@@ -1,0 +1,203 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+
+header{
+  position:fixed;
+  background-color:rgba(34,49,52,0.9);
+  height:65px;
+  z-index:10;
+  width:100%;
+}
+
+header img{
+  width:124px;
+  margin:20px 0;
+}
+
+.header-right{
+  float:right;
+  background-color: rgba(255, 255, 255, 0.3);            
+  transition: all 0.5s;
+}
+
+.header-right a{
+  display:block;
+  color:white;
+  padding:0 25px;
+  line-height:65px;
+}
+
+.header-right:hover{
+  background-color:rbga(255,255,255,0.5);
+}
+
+.main{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+}
+
+.maintitle{
+  width:1170px;
+  margin:0 auto;
+  color:white;
+  text-align:center;
+  padding:180px 0 100px 0;
+}
+
+.maintitle h1{
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:5px;
+}
+
+.maintitle h1,.maintitle p{
+  opacity:0.7;
+}
+
+.signup{
+  background-color:#239b76;
+  opacity:0.8;
+  margin-top:30px;
+}
+
+.icon{
+  margin:15px;
+  opacity:0.7;
+}
+
+.facebook{
+  margin-right:10px;
+  background-color:#3b5998;
+  opacity:0.8;
+}
+
+.twitter{
+  background-color:#55acee;
+  opacity:0.8;
+}
+
+.fa{
+  margin-right:5px;
+}
+
+.main a:hover{
+  opacity:1;
+}
+
+.main a{
+  display:inline-block;
+  color:white;
+  padding:8px 24px;
+  border-radius:4px;
+}
+
+.contents{
+  height:580px;
+  background-color:#f7f7f7;
+  text-align:center;
+}
+
+.contents h1{
+  font-weight:normal;
+  padding:80px 0 50px 0;
+  font-size:22px;
+  color:#5f5d60;
+}
+
+.lang{
+  float:left;
+  width:25%;
+}
+
+.contents p{
+  width:80%;
+  color:#b3aeb5;
+  padding-top:15px;
+  font-size:13px;
+  display:inline-block;
+}
+
+.mark{
+  position: relative;
+}
+
+.mark h2{
+  position:absolute;
+  font-size:18px;
+  font-weight:normal;
+  color:white;
+  top:44%;
+  width:100%;
+  z-index:5;
+}
+
+.start{
+  text-align:center;
+}
+
+.start-progate{
+  color:#5f5d60;
+  padding:80px 0 50px 0;
+}
+
+.green-button{
+  color:white;
+  background-color:#5dca88;
+  opacity:0.8;
+  padding:15px 40px;
+  line-height:65px;
+  box-shadow:0 7px #1a7940;
+}
+
+.green-button:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+.start-button{
+  margin-bottom:80px;
+}
+
+footer{
+  border-top:1px solid #eee;
+}
+
+footer img{
+  width:124px;
+}
+
+footer p{
+  color:#b3aeb5;
+  font-size:12px;
+}
+
+.under-logo{
+  margin:30px 0;
+}
+
+
+
